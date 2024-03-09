@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ModulesAuthController } from '../modules/auth.controller'; // Use forward slashes for paths
-import { ModulesAuthService } from '../modules/auth.service';
+import { ModulesAuthController } from './auth.controller'; // Use forward slashes for paths
+import { ModulesAuthService } from './auth.service';
 
 describe('ModulesAuthController', () => {
   let controller: ModulesAuthController;
